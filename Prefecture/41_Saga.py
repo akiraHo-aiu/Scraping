@@ -18,11 +18,9 @@ browser = webdriver.Chrome()
 
 
 # In[ ]:
-
 browser.get('https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=040000')
 
 
-# In[ ]:
 text = browser.find_element_by_id("short-table-container").text
 print(text)
 # %%
